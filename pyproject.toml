@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "auth-service-project"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Gruzdev <gruzdev.daniil@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.31.0"
+alembic = "^1.13.3"
+sqlalchemy = "^2.0.35"
+mypy = "^1.11.2"
+isort = "^5.13.2"
+redis = "^5.1.1"
+pyjwt = "^2.9.0"
+bcrypt = "^4.2.0"
+flake8 = "^7.1.1"
+pytest-asyncio = "^0.24.0"
+asyncpg = "^0.30.0"
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
